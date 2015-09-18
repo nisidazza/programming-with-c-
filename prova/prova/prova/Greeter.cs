@@ -25,7 +25,7 @@ namespace prova
                     return "Yo man!";
                     break;
                 default:
-                    throw new ArgumentOutOfRangeException();
+                    return string.Empty;
             }
         }
     }
