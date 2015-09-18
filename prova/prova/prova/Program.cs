@@ -9,6 +9,8 @@ namespace prova
     {
         static void Main(string[] args)
         {
+            var greeter = new Greeter(Greet.Formal);
+            Console.WriteLine(greeter.GetGreet());
         }
     }
 }
